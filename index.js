@@ -34,7 +34,7 @@ function render(leads){
 }
 
 
-deleteBtn.addEventListener('dblclick',function(){
+deleteBtn.addEventListener('click',function(){
     localStorage.clear()
     myLeads=[]
     render(myLeads)
@@ -45,6 +45,7 @@ inputBtn.addEventListener('click',function(){
     myLeads.push(inputEl.value)
     inputEl.value=''
     localStorage.setItem("myLeads",JSON.stringify(myLeads))
+    console.log(localStorage.getItem('myLeads'))
     render(myLeads)
 })
 
