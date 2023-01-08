@@ -1,4 +1,4 @@
-# Lead-Tracker-Browser-Extension
+# Lead Tracker Browser Extension
 With the help of this extension you can easily save any links into the local storage and they get displayed as a list in the extension UI.You can save the URL of current active tab of the active window.<br>
 To run this extension,<br>
 Step 1: Download and Unzip the code <br>
