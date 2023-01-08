@@ -21,6 +21,13 @@ button{
     padding: 10px;
     border:none;
     font-weight: bold;
+    border: 1px solid #5f9341;
+}
+
+#delete-btn{
+    background:none;
+    color: #5f9341;
+    font-weight: bold;
 }
 
 li a{
